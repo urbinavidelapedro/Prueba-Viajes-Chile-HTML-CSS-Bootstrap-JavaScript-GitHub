@@ -1,57 +1,428 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Pedro Maximiliano Urbina Videla">
-    <meta name="description" content="Viajes Chile: Descubre los destinos más asombrosos de Chile con nosotros. Ofrecemos experiencias de viaje inolvidables, personalizadas para ti. ¡Explora Chile hoy!">
-    <meta name="keywords" content="Viajes Chile, Agencia de Viajes, Turismo Chile, Destinos Chile, Santiago, Valparaíso, Patagonia, Desierto de Atacama">
-    <title>Viajes Chile - Tu Agencia de Viajes de Confianza</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
-<body>
-
-<!-- Inicio Header -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pedro Maximiliano Urbina Videla" />
+    <meta
+      name="description"
+      content="Viajes Chile: Descubre los destinos más asombrosos de Chile con nosotros. Ofrecemos experiencias de viaje inolvidables, personalizadas para ti. ¡Explora Chile hoy!"
+    />
+    <meta
+      name="keywords"
+      content="Viajes Chile, Agencia de Viajes, Turismo Chile, Destinos Chile, Santiago, Valparaíso, Patagonia, Desierto de Atacama"
+    />
+    <link rel="shortcut icon" href="assets/img/viajes.svg" type="image/svg+xml">
+  <script src="https://kit.fontawesome.com/b95c51ffdb.js" crossorigin="anonymous"></script><!-- js de Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> <!-- CDN de bootstrap -->
+  <link rel="stylesheet" href="assets/css/main.css"><!-- Enlace a la hoja de css -->
+  </head>
+  <body>
+    <!-- Inicio del Header -->
     <header>
-    <!-- Inicio Navbar -->
-        <nav>
+      <!-- Inicio del NavBar -->
+      <nav
+        class="navbar navbar-expand-lg bg-transparent fixed-top"
+        data-bs-theme="dark"
+      >
+        <div class="container">
+          <a
+            class="navbar-brand d-flex align-items-center"
+            href="#"
+            target="_self"
+            title="Página de Inicio"
+          >
+            <img
+              class="imagenNav me-2"
+              src="assets/img/viajes.svg"
+              alt="Viajes Chile"
+            /><span class="">Viajes Chile</span>
+          </a>
 
-        </nav>
-    <!-- Final Navbar -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="menuNavbar navbar-nav ms-md-auto">
+              <a
+                class="nav-link active text-white mx-3"
+                aria-current="page"
+                href="#"
+                target="_self"
+                title="Ir al Index"
+                >Index</a
+              >
+              <a
+                class="nav-link text-white mx-3"
+                href="#quienesSomos"
+                target="_self"
+                title="Acerca de nosotros"
+                >Conoce quienes somos</a
+              >
+              <a
+                class="nav-link text-white mx-3"
+                href="#destacados"
+                target="_self"
+                title="Ir a destacatos"
+                >Destinos destacados</a
+              >
+              <a
+                class="nav-link text-white mx-3"
+                href="#contacto"
+                target="_self"
+                title="Contactenos"
+                >Contactanos y resuelve tus dudas</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Fin del NavBar -->
+
+      <!-- Inicio Carousel -->
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/carousel1.jpg"
+              class="d-block w-100"
+              alt="alpacas"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel2.jpg"
+              class="d-block w-100"
+              alt="moais"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel3.jpg"
+              class="d-block w-100"
+              alt="pinguino"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Fin Carousel -->
     </header>
- <!-- Final Header -->
+    <!-- Fin del Header -->
 
-<!-- Inicio  Quienes Somos -->
-    <section></section>
-<!-- Fin Quienes Somos -->
+    <!-- Incio del Main -->
+    <main>
+      <!-- Inicio Sección Quienes Somos -->
+      <section id="quienesSomos">
+        <div class="container d-none d-sm-none d-md-block pt-3">
+          <h2 class="text-light text-center pt-5 fw-bold fs-3">
+            ¿QUIÉNES SOMOS?
+          </h2>
+          <hr />
+          <div class="row py-3">
+            <div class="col-md-4">
+              <div>
+                <p class="bg-infoCustom text-light text-center">
+                  <i class="fa-solid fa-plane fa-lg"></i>
+                </p>
+                <p class="text-light">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Laborum esse in illo quasi vero eligendi dolores rem veritatis
+                  porro ipsa iusto itaque odio non molestias, voluptatem veniam
+                  voluptates aliquam incidunt? Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Eligendi doloribus rerum
+                  perferendis possimus ullam sequi, exercitationem sed aperiam.
+                  Doloribus ut, esse quidem quasi harum repellat! Unde,
+                  corporis. Est, aliquam nihil!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <p class="text-light">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Laborum esse in illo quasi vero eligendi dolores rem veritatis
+                  porro ipsa iusto itaque odio non molestias, voluptatem veniam
+                  voluptates aliquam incidunt? Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Eligendi doloribus rerum
+                  perferendis possimus ullam sequi, exercitationem sed aperiam.
+                  Doloribus ut, esse quidem quasi harum repellat! Unde,
+                  corporis. Est, aliquam nihil!
+                </p>
+                <p class="bg-infoCustom text-light text-center">
+                  <i class="fa-solid fa-mountain fa-lg"></i>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <p class="bg-infoCustom text-light text-center">
+                  <i class="fa-solid fa-route fa-lg"></i>
+                </p>
+                <p class="text-light">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Laborum esse in illo quasi vero eligendi dolores rem veritatis
+                  porro ipsa iusto itaque odio non molestias, voluptatem veniam
+                  voluptates aliquam incidunt? Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Eligendi doloribus rerum
+                  perferendis possimus ullam sequi, exercitationem sed aperiam.
+                  Doloribus ut, esse quidem quasi harum repellat! Unde,
+                  corporis. Est, aliquam nihil!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fin Sección Quienes Somos -->
 
-<!-- Inicio Destacados -->
-    <section></section>
-<!-- Fin Destacados -->
+      <!-- Inicio Sección Destacados -->
+      <section id="destacados">
+        <div class="container pt-3">
+          <h2 class="text-light text-center pt-5 fw-bold fs-3">DESTINOS DESTACADOS</h2>
+          <hr />
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <div class="d-flex justify-content-center">
+                <div class="card">
+                  <img
+                    src="assets/img/card1.jpg"
+                    class="card-img-top"
+                    style="height: 12rem"
+                    alt="Paisaje Montaña Lago"
+                  />
+                  <div class="card-body bg-infoCustom text-start text-light">
+                    <h6 class="card-title fw-bold fs-4">
+                      Lorem ipsum dolor sit amet
+                    </h6>
+                    <p class="card-text fw-bold">
+                      Mus enim elementum dignissim class eleifend justo, ut nunc
+                      magnis est vulputate nostra, blandit erat luctus faucibus
+                      orci.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-<!-- Inicio Contacto -->
-    <section></section>
-<!-- Fin Contacto -->
+            <div class="col-md-3 mb-3">
+              <div class="d-flex justify-content-center">
+                <div class="card">
+                  <img
+                    src="assets/img/card2.jpg"
+                    class="card-img-top"
+                    style="height: 12rem"
+                    alt="Paisaje Lago Desierto"
+                  />
+                  <div class="card-body bg-infoCustom text-start text-light">
+                    <h6 class="card-title fw-bold fs-4">
+                      Eius aut facere aspernatur cumque
+                    </h6>
+                    <p class="card-text fw-bold">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Eius aut facere aspernatur cumque eligendi deleniti
+                      provident.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-md-3 mb-3">
+              <div class="d-flex justify-content-center">
+                <div class="card">
+                  <img
+                    src="assets/img/card3.jpg"
+                    class="card-img-top"
+                    style="height: 12rem"
+                    alt="Paisaje Lago"
+                  />
+                  <div class="card-body bg-infoCustom text-start text-light">
+                    <h6 class="card-title fw-bold fs-4">
+                      Eligendi doloribus rerum perferendis
+                    </h6>
+                    <p class="card-text fw-bold">
+                      Exercitationem sed aperiam. Doloribus ut, esse quidem
+                      quasi harum repellat! Unde, corporis. Est, aliquam nihil!.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-md-3 mb-3">
+              <div class="d-flex justify-content-center">
+                <div class="card">
+                  <img
+                    src="assets/img/card4.jpg"
+                    class="card-img-top"
+                    style="height: 12rem"
+                    alt="Paisaje Bosque"
+                  />
+                  <div class="card-body bg-infoCustom text-start text-light">
+                    <h6 class="card-title fw-bold fs-4">
+                      Sed tempore ullam et accusantium
+                    </h6>
+                    <p class="card-text fw-bold">
+                      Mus enim elementum dignissim class eleifend justo, ut nunc
+                      magnis est vulputate nostra, blandit erat luctus faucibus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fin Sección Destacados -->
 
+      <!-- Inicio Sección Contacto -->
+      <section id="contacto">
+        <div class="container">
+          <h2 class="text-light text-center pt-5 fw-bold fs-3">CONTACTANOS Y RESUELVE TUS DUDAS</h2>
+          <hr />
+          <form>
+            <div class="mb-3 text-start">
+              <label for="nombre" class="form-label fw-bold text-light"
+                >Nombre</label
+              >
+              <input type="text" class="form-control" id="nombre" />
+            </div>
 
+            <div class="mb-3 text-start">
+              <label for="email" class="form-label fw-bold text-light"
+                >Asunto</label
+              >
+              <input type="email" class="form-control" id="email" />
+            </div>
 
+            <div class="mb-3 text-start">
+              <label for="mensaje" class="form-label fw-bold text-light"
+                >Mensaje</label
+              >
+              <textarea
+                class="form-control"
+                id="mensaje"
+                style="height: 100px"
+              ></textarea>
+            </div>
 
+            <div class="text-start">
+              <button
+                id="enviarCorreo"
+                type="button"
+                class="btn btn-info text-light px-4 mb-5 fw-bold fs-5"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                data-bs-title="Presiona para enviar correo"
+              >
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- Fin Sección Contacto -->
+    </main>
+    <!-- Fin del Main -->
 
-<!-- Inicio Footer -->
+    <!-- Inicio del Footer -->
+    <footer class="bg-infoCustom">
+      <div class="container">
+        <div class="row pt-4 aling-item-center">
+          <div class="col-md-6 text-center">
+            <h4 class="text-light fw-bold">VIAJES CHILE</h4>
+          </div>
+          <div class="col-md-6">
+            <ul class="estiloUl d-flex justify-content-center">
+              <li class="px-2">
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  title="GitHub"
+                  class="text-light"
+                  ><i class="fa-brands fa-square-github fa-2xl"></i
+                ></a>
+              </li>
+              <li class="px-2">
+                <a
+                  href="https://cl.linkedin.com/"
+                  target="_blank"
+                  title="Linkedin"
+                  class="text-light"
+                  ><i class="fa-brands fa-linkedin fa-2xl"></i
+                ></a>
+              </li>
+              <li class="px-2">
+                <a
+                  href="https://twitter.com/?lang=es"
+                  target="_blank"
+                  title="twitter(X)"
+                  class="text-light"
+                  ><i class="fa-brands fa-square-twitter fa-2xl"></i
+                ></a>
+              </li>
+              <li class="px-2">
+                <a
+                  href="https://web.facebook.com/?locale=es_LA&_rdc=1&_rdr"
+                  target="_blank"
+                  title="Facebook"
+                  class="text-light"
+                  ><i class="fa-brands fa-square-facebook fa-2xl"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Final del Footer -->
 
-<footer></footer>
-
-<!-- Final Footer -->
-
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<script src="assets/js/script.js"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- (CDN)Enlace de boostrap para funciones con JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- CDN de jquery -->
+    <script src="assets/js/main.js"></script>
+    <!-- Enlace al archivo JS -->
+  </body>
 </html>
